@@ -1,0 +1,20 @@
+{
+  "name": "internvista-backend",
+  "version": "1.0.0",
+  "description": "New Intern-vista Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Sameer-20l"
+  },
+  "author": "Sameer Shende",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
