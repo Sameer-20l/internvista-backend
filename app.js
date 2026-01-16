@@ -5,8 +5,10 @@ import correlator from 'express-correlation-id';
 import http from 'http';
 import fs from "fs";
 import { dirname, join } from 'path';
+import { job_vista } from './config/db.js';
+import initModels from './models/init-models.js';
 
-// initModels(supporting_registry);
+initModels(job_vista);
 
 // const __filename = fileURLToPath(import.meta.url);
 // const __dirname = dirname(__filename);
